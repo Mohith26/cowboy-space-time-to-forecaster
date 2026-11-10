@@ -1,0 +1,156 @@
+{
+ "cfg": {
+  "altKm": 550,
+  "incDeg": 97.6,
+  "ltanHours": 13.5,
+  "days": 14,
+  "stepS": 20,
+  "rfMaskDeg": 5,
+  "optMaskDeg": 20,
+  "persistenceH": 8,
+  "regionRho": 0.6,
+  "chunkMin": 10,
+  "onboardProcMin": 4,
+  "groundProcMin": 20,
+  "xbandMbps": 300,
+  "sbandMbps": 2,
+  "opticalGbps": 25,
+  "realizations": 120,
+  "trainFrac": 0.5,
+  "seed": 2027
+ },
+ "periodMin": 95.65,
+ "contactsPerDay": {
+  "svalbard-rf": 13.36,
+  "fairbanks-rf": 10,
+  "mcmurdo-rf": 13,
+  "table-mtn": 2.14,
+  "haleakala": 1.86,
+  "tenerife": 2,
+  "matera": 2.43,
+  "atacama": 1.93,
+  "alice": 1.86,
+  "stromlo": 2.07,
+  "hbk": 1.93,
+  "svalbard-ogs": 8.64,
+  "kiruna": 5.43,
+  "fairbanks-ogs": 4.43,
+  "troll": 7.64
+ },
+ "greedy": {
+  "chosen": [
+   "table-mtn",
+   "tenerife",
+   "haleakala",
+   "troll",
+   "atacama",
+   "hbk"
+  ],
+  "trace": [
+   {
+    "add": null,
+    "value": 0.7069362788764179
+   },
+   {
+    "add": "troll",
+    "value": 0.7255329888948275,
+    "gain": 0.01859671001840968
+   },
+   {
+    "add": "atacama",
+    "value": 0.7364006176138725,
+    "gain": 0.010867628719045008
+   },
+   {
+    "add": "hbk",
+    "value": 0.7446107251024406,
+    "gain": 0.008210107488568097
+   }
+  ]
+ },
+ "raw": {
+  "fire": {
+   "onTime": 0,
+   "p50": 36.02,
+   "p90": 57.69
+  },
+  "mirs": {
+   "onTime": 0.3736,
+   "p50": 36.02,
+   "p90": 57.69
+  },
+  "imagery": {
+   "onTime": 0.9236,
+   "p50": 36.02,
+   "p90": 57.69
+  }
+ },
+ "laser3": {
+  "fire": {
+   "onTime": 0.0392,
+   "p50": 203.33,
+   "p90": 551
+  },
+  "mirs": {
+   "onTime": 0.0794,
+   "p50": 203.33,
+   "p90": 551
+  },
+  "imagery": {
+   "onTime": 0.1614,
+   "p50": 203.34,
+   "p90": 551.01
+  }
+ },
+ "every3": {
+  "fire": {
+   "onTime": 0.4346,
+   "p50": 18.34,
+   "p90": 40.34
+  },
+  "mirs": {
+   "onTime": 0.7231,
+   "p50": 18.34,
+   "p90": 40.34
+  },
+  "imagery": {
+   "onTime": 0.9626,
+   "p50": 19.33,
+   "p90": 41.33
+  }
+ },
+ "optimized": {
+  "fire": {
+   "onTime": 0.4838,
+   "p50": 15.34,
+   "p90": 38.34
+  },
+  "mirs": {
+   "onTime": 0.7766,
+   "p50": 15.34,
+   "p90": 38.34
+  },
+  "imagery": {
+   "onTime": 0.9734,
+   "p50": 16.33,
+   "p90": 39.33
+  }
+ },
+ "laserOptimized": {
+  "fire": {
+   "onTime": 0.1112,
+   "p50": 79,
+   "p90": 254.67
+  },
+  "mirs": {
+   "onTime": 0.2157,
+   "p50": 79,
+   "p90": 254.67
+  },
+  "imagery": {
+   "onTime": 0.4016,
+   "p50": 79.01,
+   "p90": 254.67
+  }
+ }
+}

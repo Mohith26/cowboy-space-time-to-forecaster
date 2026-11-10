@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reason-2 · Time to Forecaster (concept) | Cowboy Space</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="#"><img src="assets/wordmark.svg" alt="Cowboy Space Corp."></a>
+  <nav class="nav">
+    <a class="br">REASON-1</a><a class="br on">REASON-2</a><a class="br">STAMPEDE</a><a class="br">GROUND NETWORK</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="eyebrow">MISSION PLANNING · NOAA NESDIS CRADA</div>
+    <h1>TIME TO FORECASTER</h1>
+    <p class="lede" id="lede"></p>
+  </section>
+
+  <section class="kpis" id="kpis"></section>
+
+  <section class="grid">
+    <div class="panel map-panel">
+      <div class="ph"><span class="eyebrow">GROUND TRACK · 24 H</span><span class="tag" id="orbit-tag"></span></div>
+      <div id="map"></div>
+      <div class="legend" id="map-leg"></div>
+    </div>
+    <div class="panel">
+      <div class="ph"><span class="eyebrow">LATENCY · CLOUD-AWARE MONTE CARLO</span>
+        <div class="seg" id="prod-seg"></div></div>
+      <div id="cdf"></div>
+      <div class="legend" id="cdf-leg"></div>
+    </div>
+  </section>
+
+  <section class="grid grid-b">
+    <div class="panel">
+      <div class="ph"><span class="eyebrow">OPTICAL GROUND STATIONS</span><button class="btn" id="opt-btn">Optimize +3 stations</button></div>
+      <table class="tbl" id="st-tbl"></table>
+      <div class="note" id="st-note"></div>
+    </div>
+    <div class="panel">
+      <div class="ph"><span class="eyebrow">ONE DAY OF CONTACTS · SAMPLE WEATHER</span><span class="tag" id="day-tag"></span></div>
+      <div id="strip"></div>
+      <div class="legend" id="strip-leg"></div>
+      <div class="ph ph2"><span class="eyebrow">PRODUCTS ON THE WIRE</span></div>
+      <table class="tbl" id="prod-tbl"></table>
+    </div>
+  </section>
+
+  <footer class="foot">Unofficial concept demo by Mohith Gajjela. Not affiliated with Cowboy Space Corporation or NOAA. Synthetic weather; assumed station sites and link parameters.</footer>
+</main>
+<div class="tip" id="tip"></div>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

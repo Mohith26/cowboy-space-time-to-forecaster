@@ -1,0 +1,2 @@
+{ "name": "cowboy-space-time-to-forecaster", "private": true, "type": "module",
+  "scripts": { "test": "node --test tests/latency.test.mjs", "build": "node scripts/run.mjs" } }
